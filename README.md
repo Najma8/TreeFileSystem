@@ -2,7 +2,7 @@
 
 This project aims to implement a file system using a tree data structure in the C programming language, integrated with Linux-based systems to enable efficient file operations. The project focuses on developing a file system that utilizes the concept of a tree data structure, providing an organized and effective approach for data storage and management.
 
-### Key Features:
+## Key Features:
 - Implementation of a tree-based file system structure using C language.
 - Integration with Linux-based systems for seamless execution.
 - Efficient file operations and management.
@@ -11,7 +11,7 @@ This project aims to implement a file system using a tree data structure in the 
 
 This project is of great importance in the field of file system management and data storage. The file system is a fundamental component of a computer system, playing a crucial role in the organized storage, access, and management of data.
 
-### How It Works
+## How It Works
 
 The file system project is implemented using a tree data structure to represent the hierarchical organization of files and directories. The main components of the project are:
 
@@ -25,3 +25,5 @@ The project leverages the relationships between these structures to create an ef
 The file system utilizes the tree data structure to maintain the hierarchy of files and directories. Each directory contains a reference to its parent directory and an array of child items. Users can traverse the file system by changing the current working directory and updating the `currentDirectory` and `currentDirectoryPath` accordingly.
 
 File operations, such as reading from or writing to files, are performed by accessing the appropriate file items within the file system structure. The project provides an intuitive interface that allows users to interact with the file system effectively.
+
+### The file with .c extension should be compiled and run in a Linux terminal.
