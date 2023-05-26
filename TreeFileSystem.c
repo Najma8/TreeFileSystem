@@ -810,7 +810,7 @@ int main() {
 			break;
 		}
 		else{
-			printf("Boyle bir komut yok!\n");
+			printf("There is no such command!\n");
 			writePath(fs);
 		}
 	}while(strcmp(c1,"end")!=0);
